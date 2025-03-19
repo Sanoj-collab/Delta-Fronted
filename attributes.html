@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Tags in HTML</title>
+</head>
+<body>
+    <ul>
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Samosa</li>
+        <li>Pizza</li>
+        <li>Rasmalai</li>
+    </ul> 
+    <ol><!-- here u can use the type of order u want to order the list in  -->
+        <li>Bread</li>
+        <li>Jam</li>
+        <li>Samosa</li>
+        <li>Pizza</li>
+        <li>Rasmalai</li>
+    </ol>
+    <!--**Anchor tag : This tag is used to link your own another page link . -->
+
+    <a href="https://www.netflix.com/in/">Netflix</a><br>
+    <a href="https://www.google.com">Google</a><br>
+    <a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">Amazon prime video</a><br>
+
+    <!--** Image element : This tag is used to add image in the page .This is only have opening tag.-->
+
+    <img src="download.png" alt="leetcode Batch" height="300px" width="300px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_oayEC1wvW3X4lmpHSD3nI8NUzoE8JRaZXw&s" alt="Captain America"><br>
+
+    <!--** Br: This is a tag used to break the line or used to give a line space .-->
+    <!--** Bold(b), Italic(i), Underlined(u) : This all three tags are used to heighlight the Content-->
+
+    <b>Twinkle Twinkle </b><br>
+    <i>Little star</i><br>
+    <u>Poem</u>
+
+    <!--** hr : Horizontal rule - element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.-->
+
+    <p>$ I am very offend with mine own ones .I really don't like to meet them or spend my time with them .</p>
+    <hr/>
+    <p>$ But I cann't do that because they are mine So I have to be with them ..</p>
+
+    <!--** Div : This is the block level element which is used to grouo the content/tag.-->
+    <div>
+        <a>This is div box.</a>
+        <a href="https://www.youtube.com/">Youtube</a>   
+    </div>
+    <a>Click the upper link to open the youtube..</a>
+
+    <!--** Span element : This is same as div but it is inline element . It is also used as container .-->
+    <span>
+        <a>This is span container box.</a>
+        <a href="https://www.youtube.com/">Youtube</a>
+    </span>
+    <a>Click the upper link to open the youtube..</a>
+
+    <!--**Sub & Sup : This are the tag which are used for superscript and subscript content.-->
+    <h1>a<sup>2</sup></h1>
+    <h1>H<sub>2</sub>O</h1>
+
+    <!--** Semantic Markup :It is the markup that relates to the meaning of content.This markup gives meaningful/Layout Structure and becomes SEO(Search Engine Opitmization) friendily.-->
+    <!--Some of the Seametic tag are <header>, <footer>, <main>, <nav>, <Sexction>, <aside>, <article>-->
+
+    <!--**HTML Entities: ~> An HTML entity is a piece of text ("String") that begins with an ampersand(&) and ends with a semicolon(;).~>Used to display reserved characters(which would otherwise be interoreted as HTML code), & invisible charaters(like non-breaking spaces).~> Can also use in place of characters that are difficult to type with a standard keyboard.~> Browser interprets them & renders & renders correct charcter.-->
+    <h1>a &lt; b</h1>
+    <h1>a &gt; b</h1>
+    <h1>a&nbsp;&nbsp;b</h1>
+    <h1>a&quot;b&quot;</h1>
+    <h1>a &amp; b</h1>
+    <h1>a&bigstar;b&hearts;</h1>
+
+    <!--** Video tag/Element: This tag is used to add video in the page . -->
+    <h1>Below is the example of video element</h1>
+    <video src="rabbit320.webm" controls><p>This video is not avilable in my device.Here is a <a href="rabbit320.webm">link to the video</a> </p></video>
+    <video src="IMG_6644.mp4" controls width="400" height="400" poster="poster.png" preload="auto" muted ></video> 
+
+    <!--**Audio element : This tag is used to add audio in the page .-->
+    <h1>Below is the example of audio.</h1>
+    <audio src="song.mp3" controls >This audio is not avilable .</audio>
+
+    <!--**TABLE**-->
+    <!--*th: This is used for header in table.-->
+    <!--*td: This tag is used for data in table.-->
+    <!--*tr: This is used for row in table.-->
+    <table border="black">
+        <caption>
+            Food Menu
+        </caption>
+        <thead>
+            <th>Items</th>
+            <th>Price</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dosa</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Biryani</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Spring Roll</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--*Colspan & Rowspan Attributes: used to create cells which spans over muliple rowws or columns.-->
+    <table border="black">
+        <caption>
+            Food Menu
+        </caption>
+        <thead>
+            <th rowspan="2">Items</th>
+            <th colspan="2">Price</th>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dosa</td>
+                <td>50</td>
+                <td>0.35</td>
+            </tr>
+            <tr>
+                <td>Biryani</td>
+                <td>100</td>
+                <td>1.28</td>
+            </tr>
+            <tr>
+                <td>Spring Roll</td>
+                <td>70</td>
+                <td>0.90</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--**Forms in HTML**-->
+    <!--*Action Attributes: Action attributes is Used to define action eeds to be performed when a form s submitted or where the data should be sent.-->
+    <!--*Type attributes: Type attributtes are the one of the most popular attributes in form.-->
+    <!--*Placeholder : Placeholder is a type of message which is invisible after value given. This are the text which holds the place for the kind of value.-->
+    <!--*Lables: This is used to make a connection .It represents a caption for an item n a user interface.-->
+    <form >
+        <label>
+            Username
+            <input type="text" placeholder="Enter your username">
+        </label>
+        <label>
+            Password 
+            <input type="password" placeholder="enter password">
+        </label>
+        <label>
+            Number
+            <input type="number" placeholder="Enter Phone number">
+        </label>
+        <label>
+            Date 
+            <input type="date" >
+        </label>
+       <label>
+        Time 
+        <input type="time">
+       </label>
+        <label>
+            Color
+            <input type="color" >
+        </label>
+    </form>
+    <!--*Label classical approach-->
+    <!--*Button : This is used to create button in a form. outside the button it doesn't perform any action.-->
+    <!--Deafault behavior of button in the form is to submit the data to the server...-->
+    <form action="/submit">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" placeholder="Enter your username.">
+        </div>
+        <button>Submit</button>
+        <button type="button">type 2</button>
+        <button type="reset">RESET</button>
+    </form>
+    <form action="server">
+        <div>
+            <label for="username">Enter your username:</label>
+            <input type="text" id="username" placeholder="Enter your username." name="username">
+        </div>
+        <div>
+            <label for="password">Enter your password:</label>
+            <input type="text" id="password" placeholder="Enter your password." name="pass">
+        </div>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+    <input type="text" placeholder="Search in youtube" id="Search" name="search_query">
+    <button>Search</button>
+    </form>
+
+    <!--*CheckBox : This input element is used to create checkbox in the form or web page .-->
+    <input type="checkbox" id="checkbox1">
+    <label for="age">I m 18+.</label>
+    <br>
+    <!--*Radio-->
+    Select fruit:
+    <input type="radio" id="apple" name="fruit" value="apple">
+    <label for="apple">Apple</label>
+    <input type="radio" id="apple" name="fruit" value="mango">
+    <label for="mango">mango</label>
+    <input type="radio" id="apple" name="fruit" value="orange">
+    <label for="orange">orange</label>
+    <br>
+    <!--*DropDown-->
+    choose your profession:
+    <select name="profession" id="profession">
+        <option value="stu">Student</option>
+        <option value="Dev">Developer</option>
+        <option value="Prof">Professor</option>
+    </select>
+    <br>
+    <!--*Range-->
+    <label for="vol">Select volume:</label>
+    <input type="range" id="vol" name="vol">
+    <br>
+    <!--*Text area-->
+    <label for="feedback">Give your feedback..</label>
+    <textarea name="feedback" id="feedback"  placeholder="Your feedback...!"></textarea>
+
+    
+</body>
+</html>

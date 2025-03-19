@@ -1,0 +1,33 @@
+/* h1{
+    
+    color:green;
+    background-color: pink;
+
+}
+p{
+    color:black;
+    background-color:blueviolet;
+} */
+
+/* Text-align: this property works on the relative parent element . */
+/* Text-decoration: Set the appearance of decorative linesn the text like underline. */
+/* Line-height: it controls the height of the line of text.  */
+h1{
+    text-align: center;
+    text-decoration: red double underline;
+}
+h3{
+    text-align: right;
+    text-decoration: wavy line-through;
+}
+p{
+    text-align: justify;
+    font-weight: 300;
+    line-height: 2;
+}
+/* Font-weight: this is used to boldness of the text. */
+h2{
+    font-weight: 800;
+    text-decoration: blue dotted overline;
+}
+
