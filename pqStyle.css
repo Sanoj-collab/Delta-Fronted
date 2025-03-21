@@ -37,7 +37,7 @@ h2{
     text-transform: uppercase;
     
 } */
-/* AQ 5 */
+/* AQ 1 */
 *{
     text-align: center;
     font-style: georgia;;
@@ -68,4 +68,84 @@ textarea{
 span{
     text-decoration: underline;
 }
+/* CSS Part 2 */
+/* PQ 5 */
+/* *{
+    font-family: 'Courier New';
+}
+h1{
+    color: #1b74e4;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+} */
 
+/* PQ 6 */
+/* div[id="myid"] p{
+    color: green;
+} */
+/* OR */
+/* #myid p{
+    color: green;
+} */
+
+/* AQ 2 */
+/* #mainTopic{
+    color: blue;
+}
+*{
+    text-align: center;
+}
+h1, h3, h5{
+    font-style: georgia;
+}
+p{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    color: azure;
+    background-color: purple;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+input[type="checkbox"]:checked +label{
+    color: darkgreen;
+} */
+
+/* PQ 7 */
+#outer{
+    text-align: center;
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin-left: 50%;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 5px 10px 10px 10px;
+    border-radius: 50%;
+}
+#b1{
+    background-color: red;
+}
+#b2{
+    background-color: yellow;
+}
+#b3{
+    background-color: green;
+}
