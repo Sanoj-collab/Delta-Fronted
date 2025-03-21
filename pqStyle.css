@@ -149,3 +149,37 @@ input[type="checkbox"]:checked +label{
 #b3{
     background-color: green;
 }
+
+/* PQ 8 */
+#face{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid black ;
+    border-radius: 50%;
+}
+.eye{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(78, 54, 54);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 60px
+}
+#eye2{
+    position: absolute;
+    top: 70px;
+    left: 130px
+}
+
+#mouth{
+    height: 30px;
+    width: 90px;
+    background-color: brown;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    top: 130px;
+    left: 60px;
+}
