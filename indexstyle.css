@@ -1,0 +1,120 @@
+/* *{
+    font-family: "Courier New";
+}
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: aliceblue;
+} */
+
+/* Descendant Selector */
+/* p a{
+    color: purple;
+    background-color: rgb(139, 251, 53);
+}
+
+nav ul li a {
+    color: chocolate;
+} */
+/* Adjacent Sibling Combinator */
+/* p+h3{
+    text-decoration: underline;
+}
+.upvote + button{
+   background-color: cornflowerblue;
+   color: darkblue;
+} */
+
+/* Child Combinator */
+/* div > input{
+    background-color: darkturquoise;
+} */
+
+/* Attribute Selector */
+/* input[type="text"]{
+    color: blue;
+}
+input[type="password"]{
+    color: green;;
+} */
+
+/* Checked Pseudo class */
+/* input[type="radio"]:checked + label{
+    color: red;
+    font-weight:bold;
+}  */
+
+/* Hover Pseudo class */
+/* button:hover{
+    background-color: black;
+    color: white;
+} */
+
+/* Active pseudo class */
+/* h3:active{
+    text-decoration: overline;
+} */
+
+/* nth-of-type Pseudo class */
+/* div:nth-of-type(1n){
+    background-color: rgb(225, 154, 68);
+} */
+
+/* first-letter Pseudo element */
+/* h1::first-letter{
+    color: green
+} */
+
+/* first-line Pseudo elements */
+/* p::first-line{
+    color:blue
+} */
+
+/* selction Pseudo element */
+/* p::selection{
+    background-color: limegreen;
+} */
+
+/* Box Model */
+
+div{
+    background-color: pink;
+    height: 200px;
+    width: 500px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: 10px 20px 30px 40px;
+}
+h1{
+/* border-width: 2px;
+border-style: dotted;
+border-color: green; */
+border: 2px dotted green;
+/* border-radius: 50%; */
+margin: 0;
+}
+button{
+    background-color: rgb(11, 246, 11);
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 30px 10px 30px;
+}
