@@ -79,3 +79,47 @@ div{
 }
 
 
+/* Card hover effect */
+/* .card{
+    height:400px;
+    width: 400px;
+    border:2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px black;
+    transition: 2s;
+
+}
+img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.desc{
+    padding: 0px 10px 0px 10px;
+}
+.card:hover{
+    box-shadow: 0px 20px 20px silver;
+} */
+
+/* FlexBox */
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: aquamarine;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    text-size-adjust: 1.5em;
+    
+}
+
