@@ -123,3 +123,24 @@ h1{
     
 }
 
+/* Animation */
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    color: black;
+    
+    animation: animate 5s ease-in 0s 3 alternate;
+}
+
+@keyframes animate{
+    from{
+        font-size: 20px;
+        background-color: green;
+    }
+    to{
+        font-size: 60px;
+        border-radius: 50%;
+        background-color: lightskyblue;
+    }
+}
