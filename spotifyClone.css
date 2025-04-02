@@ -191,6 +191,34 @@ a{
     width: 25%;
 
 }
+.album-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+}
+.album-picture{
+    height: 56px;
+    width: 56px;
+
+}
+.album-icon-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.album-icon a{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 4.5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.album-icon a:hover{
+    text-decoration: underline;
+}
 .player{
     width: 50%;
 
@@ -237,4 +265,34 @@ a{
 }
 .controls{
     width: 25%;
+}
+.control-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+}
+.control-icon-control{
+    height: 3rem;
+    margin-right: 5px;
+   
+}
+.vol-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vol-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+.vol-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -0.40rem;
 }
